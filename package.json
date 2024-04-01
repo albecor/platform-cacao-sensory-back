@@ -1,0 +1,47 @@
+{
+  "name": "cacao-sensory-back",
+  "version": "1.0.0",
+  "description": "Aplicación para el catado de cacao. Esta app es diseñada por el Grupo de Investigación en Electronica, Telecomunicaciones e Informática para el Centro Surcolombiano de Investigación en Café CESURCAFÉ.",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "start:dev": "nodemon index.js",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "lint": "eslint \"**/*.js\" --ignore pattern ./.eslintrc.json",
+    "lint-fix": "eslint \"**/*.js\" --fix"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/neivaman/cacao-sensory-back.git"
+  },
+  "keywords": [
+    "nodejs",
+    "mongodb",
+    "catado",
+    "cacao"
+  ],
+  "author": "Albeiro Cortés Cabezas y  Germán Alejandro Mora",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/neivaman/cacao-sensory-back/issues"
+  },
+  "homepage": "https://github.com/neivaman/cacao-sensory-back#readme",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "cors": "^2.8.5",
+    "dotenv": "^10.0.0",
+    "ejs": "^3.1.6",
+    "email-templates": "^8.0.8",
+    "express": "^4.17.1",
+    "express-validator": "^6.12.1",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^6.0.1",
+    "nodemailer": "^6.6.3"
+  },
+  "devDependencies": {
+    "eslint": "^7.32.0",
+    "eslint-config-google": "^0.14.0",
+    "morgan": "^1.10.0",
+    "nodemon": "^2.0.12"
+  }
+}
